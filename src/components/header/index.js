@@ -1,16 +1,13 @@
 import React, {useState} from 'react';
+import './styles.css'
 
 export default function Header(){
-  const [pessoas, setPessoa] = useState(['jefferson', 'camila']);
-  
-  function addPessoas(){
-    setPessoa([... pessoas, `joao ${Date.now()}`])
-  }
-
+ 
   return(
     <>
-    {pessoas.map( pessoa => <div key={pessoa} >{pessoa}</div>)}
-    <button onClick={addPessoas} type="button">Adicionar</button>
+      <div className="header">
+        <h2>Artes Gráficas Leonardo Moura</h2>
+      </div>
     </>
   )
 }
