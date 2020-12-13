@@ -5,9 +5,9 @@ export default function Header(){
  
   return(
     <>
-      <div className="header">
+      <header className="header">
         <h2>Artes Gráficas Leonardo Moura</h2>
-      </div>
+      </header>
     </>
   )
 }
