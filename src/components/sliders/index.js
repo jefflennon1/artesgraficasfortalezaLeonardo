@@ -21,7 +21,6 @@ export default function Sliders(){
         nextImage();
       }, time)
     }
-  
 
 return(
     <>

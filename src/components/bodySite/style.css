@@ -3,4 +3,8 @@ p {
   width: 600px;
   font-size: 20px;
   margin: auto;
+  color: white;
+  padding: 20px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
 }
