@@ -3,6 +3,7 @@
   margin-top: 0;
   padding: 15px;
   text-align: center;
+  overflow: hidden;
 }
 .header h2{
   background-color: #161b22;
@@ -10,4 +11,14 @@
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #fafafa;
+    padding-bottom: 10px;
+}
+
+.header img {
+  background-color: #161b22;
+  height: 35px;
+  width: 40px;
+  position: relative;
+  left: -16px;
+  top: 5px;
 }
