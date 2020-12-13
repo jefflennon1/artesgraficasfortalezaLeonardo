@@ -1,0 +1,11 @@
+label, button{
+  display: block;
+  margin:auto;
+  width: 50%;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 10px;
+}
+.getComments{
+  padding: 50px;
+}
