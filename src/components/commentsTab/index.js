@@ -10,7 +10,7 @@ export default function Commentstab(){
       api.get('all').then( response =>{
         setComments(response.data.docs);
       })
-  }, []);
+  }, [ ButtonCreateComment]);
   return(
     <div className="inputs">
       <div className="border">

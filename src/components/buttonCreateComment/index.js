@@ -23,7 +23,7 @@ export default function ButtonCreateComment(){
 
   return(
     <>
-      <button type="button" onClick={addNewComment}>Adcionares</button>
+      <button type="button" onClick={addNewComment} id="buttonAdd" >Adcionares</button>
     </>
   )
 }
