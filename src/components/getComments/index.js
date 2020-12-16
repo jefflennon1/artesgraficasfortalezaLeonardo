@@ -32,9 +32,8 @@ export default function GetComments(){
                             </span>
                       </div>
                       <div className="identificadorComentario">
-                          <div>
-                            {comment.comment}
-                            
+                          <div className="comment">
+                            {comment.comment}                            
                           </div>
                           <div type="text" id="idComment" value={comment._id}></div>
                          </div>

@@ -37,6 +37,7 @@ fieldset {
   text-align: start;
   margin: 0;
   padding-right: 39vh;
+  width: 10%
 }
 
 .data{
@@ -81,11 +82,16 @@ fieldset {
   margin: auto;
   margin-top: -6%;
   position: relative;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 .botoes span {
   margin: 0;
   padding: 0;
   align-content: space-between;
-  display: contents;
+  display: block;
+}
+.comment {
+  display: block;
+  padding: 2%;
+  text-align: start;
 }
