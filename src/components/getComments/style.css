@@ -7,5 +7,58 @@ label, button{
   margin-top: 10px;
 }
 .getComments{
-  padding: 50px;
+  padding: 2%;
+    /* border: 1px solid rgb(118, 118, 118); */
+    border-radius: 10px 10px 10px 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+}
+fieldset {
+  padding: 3%;
+  border-radius: 13px;
+  border-color: rgb(118, 118, 118);
+  text-align: end;
+  color:rgb(118, 118, 118);
+}
+
+.commentstab{
+  display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Circular-Loom';
+}
+.commentstab label{
+  font-size: 10px;
+  color: greenyellow;
+  font-style: italic;
+}
+
+.data{
+  text-align: center;
+}
+.identificadorNome{
+  text-align: center;
+  padding: 1%;
+  color: #fafafa;
+}
+
+.identificadorComentario label{
+  text-align: start;
+  right: 27%;
+  top: -45px;
+  display: flex;
+  position: relative;
+}
+.identificadorComentario span{
+  text-align: start;
+  padding: 0;
+  bottom: 39px;
+  /* right: 90%; */
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: small;
 }
