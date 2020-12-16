@@ -1,5 +1,5 @@
-.delete{
-  background-color: rgb(255 12 4);
+.editComment{
+  background-color: #6718BB;
   font-size: 3vh;
     text-transform: unset;
     padding: 0.5%;
@@ -10,4 +10,5 @@
     margin: 0;
     /* left: 83%;
     bottom: 25%; */
+
 }

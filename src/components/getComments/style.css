@@ -33,6 +33,10 @@ fieldset {
   font-size: 10px;
   color: greenyellow;
   font-style: italic;
+  display: inline;
+  text-align: start;
+  margin: 0;
+  padding-right: 39vh;
 }
 
 .data{
@@ -40,8 +44,9 @@ fieldset {
 }
 .identificadorNome{
   text-align: center;
-  padding: 1%;
+  padding: 3%;
   color: #fafafa;
+
 }
 
 .identificadorComentario label{
@@ -50,6 +55,7 @@ fieldset {
   top: -45px;
   display: flex;
   position: relative;
+  /* display: inline; */
 }
 .identificadorComentario span{
   text-align: start;
@@ -61,4 +67,25 @@ fieldset {
   text-transform: uppercase;
   font-style: italic;
   font-size: small;
+}
+.idComment{
+  display: none;
+}
+.identificadorComentario{
+
+}
+.botoes {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: auto;
+  margin-top: -6%;
+  position: relative;
+  /* justify-content: space-between; */
+}
+.botoes span {
+  margin: 0;
+  padding: 0;
+  align-content: space-between;
+  display: contents;
 }

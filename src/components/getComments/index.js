@@ -2,12 +2,11 @@ import React, { useState, useEffect} from 'react';
 import api from '../../services/Api';
 import ButtonDelete from '../buttonDetele';
 import './style.css';
+import ButtonEditComment from '../editCommit';
 
 
 export default function GetComments(){
   const [commets, setComments] = useState([]);
-  
-  
 
   useEffect(()=>{
       api.get('all').then( response =>{
@@ -25,12 +24,19 @@ export default function GetComments(){
                   {commets.map(comment =>
                   <fieldset key={comment._id}> 
                       <legend className="identificadorNome">&nbsp;{comment.name}&nbsp;</legend> 
+                      <div className="botoes">
+                            <label className="identificadorComentario">Comentário:</label>
+                            <span>
+                                <ButtonEditComment />
+                                <ButtonDelete />
+                            </span>
+                      </div>
                       <div className="identificadorComentario">
-                        <label className="identificadorComentario">Comentário:</label>
-                          <span>
+                          <div>
                             {comment.comment}
-                            <ButtonDelete />
-                          </span>
+                            
+                          </div>
+                          <div type="text" id="idComment" value={comment._id}></div>
                          </div>
                   </fieldset>   
                 )}
