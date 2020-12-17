@@ -23,7 +23,7 @@ export default function GetComments(){
                   {commets.map(comment =>
                   <fieldset key={comment._id} className="fildsetCommentUnique" > 
                       <legend className="identificadorNome">&nbsp;{comment.name}&nbsp;</legend> 
-                      <div className="botoes">
+                      <div className="botoes" id="botoes">
                             <label className="identificadorComentario">Comentário:</label>
                             <span>
                                 <ButtonEditComment  idComment={comment._id}/>

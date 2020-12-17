@@ -9,7 +9,7 @@ export default function ButtonDelete(idComment){
 
   return(
     <>
-      <button type="button" className="delete" onClick={()=> deleteComment(idComment.idComment)}>Deletar</button>
+      <button type="button" className="delete" id={`deleteComment${idComment.idComment}`} onClick={()=> deleteComment(idComment.idComment)}>Deletar</button>
     </>
   )
 }
