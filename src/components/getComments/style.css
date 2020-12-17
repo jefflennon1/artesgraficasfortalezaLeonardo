@@ -36,8 +36,8 @@ fieldset {
   display: inline;
   text-align: start;
   margin: 0;
-  padding-right: 39vh;
-  width: 10%
+  /* padding-right: 39vh; */
+  /* width: 10% */
 }
 
 .data{

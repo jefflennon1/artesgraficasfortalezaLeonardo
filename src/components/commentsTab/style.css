@@ -6,6 +6,7 @@
   text-align: center;
   border-radius: 5px 5px 5px 5px;
   margin-top: 15px;
+  color: #fff !important;
 }
 
 textarea{
@@ -15,6 +16,7 @@ textarea{
   width: 91%;
   margin-top: 15px;
   border-radius: 5px 5px 5px 5px;
+  color: #fff !important;
 }
 
 .border{
@@ -22,7 +24,9 @@ textarea{
   margin: auto;
   border: 1px solid rgb(118, 118, 118);
   border-radius: 15px 15px 15px 15px;
+ 
 }
+
 
 .button{
   padding: 8px;
