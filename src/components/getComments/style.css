@@ -94,4 +94,5 @@ fieldset {
   display: block;
   padding: 2%;
   text-align: start;
+  word-break: break-word;
 }

@@ -12,8 +12,7 @@ export default function GetComments(){
       api.get('all').then( response =>{
       setComments(response.data.docs);
       })
-  }, [commets]);
-  
+  },[commets]);
 
   return(
     <div className="getComments">
@@ -22,21 +21,20 @@ export default function GetComments(){
           <legend>&nbsp; Aqui jaz os comentários da api &nbsp;</legend>
               <div className="data">
                   {commets.map(comment =>
-                  <fieldset key={comment._id}> 
+                  <fieldset key={comment._id} className="fildsetCommentUnique" > 
                       <legend className="identificadorNome">&nbsp;{comment.name}&nbsp;</legend> 
                       <div className="botoes">
                             <label className="identificadorComentario">Comentário:</label>
                             <span>
-                                <ButtonEditComment />
-                                <ButtonDelete />
-                            </span>
+                                <ButtonEditComment  idComment={comment._id}/>
+                                <ButtonDelete idComment={comment._id}/>
+                              </span>
                       </div>
                       <div className="identificadorComentario">
-                          <div className="comment" id={comment._id}>
+                          <div className="comment" id={comment._id} value={comment.comment}>
                             {comment.comment}                            
                           </div>
-                          <div type="text" id="idComment" value={comment._id}></div>
-                         </div>
+                      </div>
                   </fieldset>   
                 )}
               </div>
@@ -44,4 +42,6 @@ export default function GetComments(){
       </section>
     </div>
   )
+
+ 
 }

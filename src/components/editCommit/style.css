@@ -10,3 +10,11 @@
   margin: 0;
 
 }
+
+textarea{
+  overflow-y: hidden; 
+  min-height: 200px;
+}
+.textEdit{
+  color: yellowgreen !important;
+}
