@@ -1,9 +1,10 @@
 .header{
   background-color: #161b22;
   margin-top: 0;
-  padding: 15px;
+  padding: 1vh;
   text-align: center;
   overflow: hidden;
+  margin: auto;
 }
 .header h2{
   background-color: #161b22;
@@ -15,10 +16,10 @@
 }
 
 .header img {
-  background-color: #161b22;
-  height: 35px;
-  width: 40px;
-  position: relative;
-  left: -16px;
-  top: 5px;
+   background-color: #161b22;
+    height: 4vh;
+    width: 5vh;
+    position: relative;
+    left: -2%;
+    top: 1vh;
 }

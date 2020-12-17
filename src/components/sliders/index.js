@@ -28,6 +28,7 @@ return(
         <div className="galeria" id="galeria">
           <img className="selected" src={calendar} alt=""></img>
           <img  src={stamp} alt=""></img>
+          <span className="titleSpan" >ARTES GRÁFICAS</span>
         </div>
      </div>
      {start()}

@@ -1,12 +1,12 @@
 p {
   /* text-align: center; */
-  width: 76%;
+  width: 60%;
   font-size: 20px;
   margin: auto;
-  color: white;
+  color: #fafafa;
   /* padding: 20%; */
   font-family: sans-serif;
   letter-spacing: 1px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

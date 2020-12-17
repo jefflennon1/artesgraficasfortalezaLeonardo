@@ -7,7 +7,7 @@ export default function EditCommit(idComment){
 
   return(
     <>
-    <button className="editComment" id={`editComment${idComment.idComment}`}  onClick={()=>editaComentario(idComment)}>Editar</button>
+    <button className="editComment  botao" id={`editComment${idComment.idComment}`}  onClick={()=>editaComentario(idComment)}>Editar</button>
     </>
   )
     function escondeBotoes(props){
@@ -31,7 +31,9 @@ export default function EditCommit(idComment){
 
       buttonSave.innerText = 'Salvar';
       buttonSave.setAttribute('id', 'saveEditComment');
+      buttonSave.setAttribute('class', 'botao');
       textarea.setAttribute('id', 'comment');
+      textarea.setAttribute('class', 'entrada');
       div.appendChild(textarea);
       div.appendChild(buttonSave)
       textarea.append(text);

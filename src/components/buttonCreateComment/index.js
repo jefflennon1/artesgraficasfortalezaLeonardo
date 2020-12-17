@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import api from '../../services/Api';
+import './style.css'
 
 export default function ButtonCreateComment(){
   const [comments, setComments] = useState([]);
@@ -16,14 +17,18 @@ export default function ButtonCreateComment(){
 
           const createdComment = await api.post('/',{name, email,comment});
           const newComment = createdComment.data;
-          console.log(newComment);
-          // commets.includes(newComment, )
+          
           setComments([ ... comments, newComment]);
-    }
+          
+          
+          document.getElementById('name').value  = "";
+          document.getElementById('email').value = "";
+          document.getElementById('comment').value = "";
+        }
 
   return(
     <>
-      <button type="button" onClick={addNewComment} id="buttonAdd" >Adcionares</button>
+      <button type="button" onClick={addNewComment} id="buttonAdd" className="botao">Adicionar</button>
     </>
   )
 }
