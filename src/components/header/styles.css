@@ -1,22 +1,25 @@
 .header{
-  background-color: #161b22;
+  background-color: #161b22 !important;
   margin-top: 0;
-  padding: 1vh;
-  text-align: center;
+  /* padding: 1vh; */
+  /* text-align: center; */
   overflow: hidden;
   margin: auto;
+  display: block;
+  position: fixed;
+  width: 100%;
 }
 .header h2{
-  background-color: #161b22;
+  background-color: #161b22 !important;
   font-family: monospace;
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #fafafa;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .header img {
-   background-color: #161b22;
+   background-color: #161b22 !important;
     height: 4vh;
     width: 5vh;
     position: relative;

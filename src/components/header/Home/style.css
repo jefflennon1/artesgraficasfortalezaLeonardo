@@ -1,0 +1,20 @@
+.menu {
+  display: inline;
+  letter-spacing: normal;
+  padding: 2vh;
+  text-align: center;
+  align-items: start;
+  position: relative;
+  cursor: pointer;
+  background-color: #161b22 !important;
+  padding: 10px;
+}
+.menu:hover{
+  opacity: 50%;
+}
+.container-menu {
+  position: relative;
+  display: flex;
+  align-items: start;
+  background-color: #161b22 !important;
+}

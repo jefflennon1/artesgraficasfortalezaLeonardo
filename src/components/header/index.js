@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './styles.css';
-import iconPc from './images/computador-white.png';
-import impressoa from './images/imprressora-white.png'
+import Home from './Home'
 
 export default function Header(){
  
@@ -9,10 +8,8 @@ export default function Header(){
     <>
       <header className="header">
         <h2>
-        <img src={impressoa}/>
-          Artes Gráficas &nbsp;&nbsp;&nbsp; 
-        <img src={iconPc}/>
-           Leonardo Moura
+          <Home />
+         
         </h2>
       </header>
     </>
