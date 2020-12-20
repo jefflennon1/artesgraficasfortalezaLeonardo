@@ -1,4 +1,4 @@
-p {
+.p {
   /* text-align: center; */
   width: 60%;
   font-size: 20px;
@@ -14,8 +14,9 @@ li{
   padding: 10px;
 }
 
-li li{
+li p{
   list-style: none;
+  padding: 1vh;
 }
 
 .listaMenor{

@@ -7,12 +7,12 @@ label, button{
   margin-top: 10px;
 }
 .getComments{
-  padding: 2%;
+  padding: 3%;
     /* border: 1px solid rgb(118, 118, 118); */
     border-radius: 10px 10px 10px 10px;
     width: 70%;
     margin: auto;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 fieldset {
   padding: 3%;
@@ -25,7 +25,7 @@ fieldset {
 .commentstab{
   display: block;
     text-align: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     color: white;
     font-family: 'Circular-Loom';
 }
@@ -95,4 +95,28 @@ fieldset {
   padding: 2%;
   text-align: start;
   word-break: break-word;
+}
+.botoesPaginacao {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoesPaginacao button{
+    display: inline;
+    position: relative;
+    width: 3vw;
+    padding: 1vw;
+    text-align: center;
+    cursor: pointer;
+    padding-right: 2vw;
+    margin: 13px;
+    border: none;
+    font-size: 2vw;
+}
+.botoesPaginacao span{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    position: relative;
+    margin-top: 2.5vw;
 }

@@ -26,7 +26,7 @@ return(
     <>
      <div className="sectionDiv" >
         <div className="galeria" id="galeria">
-          <img  src="https://lh3.googleusercontent.com/proxy/bBY1FutfMXhWu9w4hSrvGF1FwNLv07mYs2GgIR62BIlUsaWUT3UD123stHzPqva0EUxyXeNxXEYn9gOhJCZzVmlFah95XG0EaV9nPv-fqTSJUX9MQ0TD8Mia5XwIXiFPJyy7hzYEs9_J7AhqSASH5C0pyKlYyPdN5A" alt=""></img>
+          <img  src="https://images.unsplash.com/photo-1496389164152-053867affa71?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt=""></img>
           <img className="selected" src="https://i2.wp.com/blog.360imprimir.com.br/wp-content/uploads/sites/5/2019/04/Capa-Artigo-Blog-360-1-PT-min.png?resize=1350%2C512&ssl=1" alt=""></img>
           <img src="https://conteudo.precocerto.co/wp-content/uploads/2017/04/10-dicas-cartao-de-visita.png" alt=""/>
           <img src="https://i.pinimg.com/originals/33/ca/62/33ca625bb4e322a1c3b4e75cb8cb06df.jpg" alt=""/>

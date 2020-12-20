@@ -40,5 +40,12 @@ textarea{
   background-color: rgb(118, 118, 118);
   color: #0d1117;
   text-transform: uppercase;
+}
 
+.inputs h2{
+  color: rgb(191 191 195);
+  display: block;
+  text-align: center;
+  font-family: monospace;
+  padding: 1em;
 }

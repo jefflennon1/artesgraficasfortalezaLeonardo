@@ -4,7 +4,8 @@ import './App.css';
 import Sliders from './components/sliders'
 import BodySite from './components/bodySite';
 import Commentstab from './components/commentsTab';
-import LoadComments from './components/getComments'
+import LoadComments from './components/getComments';
+import Footer from './components/footer';
 
 export default function App(){
   return(
@@ -14,6 +15,7 @@ export default function App(){
         <BodySite />
         <Commentstab />
         <LoadComments />
+        <Footer />
     </>
   )
 }

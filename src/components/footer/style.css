@@ -1,0 +1,28 @@
+.footer{
+  color: rgb(191 191 195);
+  background-color: #161b22;
+  padding: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer table{
+  background-color: #161b22 !important;
+  display: inline-block;
+  font-size: 1.6vh;
+  font-family: monospace;
+  border: none !important;
+}
+.footer td{
+    background-color: #161b22;
+    border: none !important;
+}
+
+.footer th{
+  background-color: #161b22;
+  border: none !important;
+}
+
+.footer tr{
+      border: none !important;
+}

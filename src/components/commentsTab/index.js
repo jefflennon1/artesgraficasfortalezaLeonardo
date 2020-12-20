@@ -13,6 +13,7 @@ export default function Commentstab(){
   }, [ ButtonCreateComment]);
   return(
     <div className="inputs">
+      <h2>Deixe um comentário: </h2>
       <div className="border">
         <input className="inputText  entrada" type="text" name="name" id="name" placeholder="Digite seu nome"></input>
         <input className="inputText  entrada" type="text" name="name" id="email" placeholder="Digite seu e-mail"></input>
