@@ -4,7 +4,7 @@ import './style.css'
 export default function Footer(){
   return(
     <>
-    <div className="footer">
+    <div className="footer"  id="footer">
       <table>
            <tbody>
             <tr>

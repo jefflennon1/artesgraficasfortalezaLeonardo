@@ -9,12 +9,13 @@
   position: fixed;
   width: 100%;
 }
-.header h2{
+.header a{
   background-color: #161b22 !important;
   font-family: monospace;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 1px;
     color: rgb(191 191 195);
+    text-decoration: none;
     /* padding-bottom: 10px; */
 }
 

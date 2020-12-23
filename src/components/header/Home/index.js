@@ -6,10 +6,10 @@ export default function Home(){
     <>
       <div className="container-menu">
           <div className="homePage menu">
-              HOME
+             <a href="#topo"  className="homePage menu">HOME</a>
           </div>
           <div className="contato menu">
-            CONTATO
+            <a href="#footer">CONTATO</a>
           </div>
       </div>
     </>

@@ -24,7 +24,7 @@ export default function Sliders(){
 
 return(
     <>
-     <div className="sectionDiv" >
+     <div className="sectionDiv"  id="topo" >
         <div className="galeria" id="galeria">
           <img  src="https://images.unsplash.com/photo-1496389164152-053867affa71?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt=""></img>
           <img className="selected" src="https://i2.wp.com/blog.360imprimir.com.br/wp-content/uploads/sites/5/2019/04/Capa-Artigo-Blog-360-1-PT-min.png?resize=1350%2C512&ssl=1" alt=""></img>
