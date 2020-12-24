@@ -3,9 +3,11 @@ import Header from './components/header'
 import './App.css';
 import Sliders from './components/sliders'
 import BodySite from './components/bodySite';
-import Commentstab from './components/commentsTab';
-import LoadComments from './components/getComments';
+// import Commentstab from './components/commentsTab';
+// import LoadComments from './components/getComments';
 import Footer from './components/footer';
+import Clientes from './components/clientes'
+
 
 export default function App(){
   return(
@@ -13,8 +15,10 @@ export default function App(){
        <Header />
         <Sliders />
         <BodySite />
-        <Commentstab />
-        <LoadComments />
+        {/* <Commentstab />
+        <LoadComments /> */}
+        <Clientes />
+
         <Footer />
     </>
   )
